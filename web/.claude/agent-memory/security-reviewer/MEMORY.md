@@ -1,0 +1,1 @@
+- [Cost guardrails review 2026-09](project_cost_guardrails_review.md) — open HIGH/MEDIUM trade-offs (OTP global cap lockout, owner cap griefing) to re-check

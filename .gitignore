@@ -1,0 +1,19 @@
+# deps / build
+node_modules/
+.next/
+out/
+coverage/
+# env & secrets
+.env
+.env.*
+!.env.example
+# local data
+.venv/
+web/.data/
+*.log
+.DS_Store
+# harness runtime (local)
+.harness/traces/
+
+# 인쇄 배치(등록 코드 평문 포함) — 커밋 금지
+design/golf-tag/batches/

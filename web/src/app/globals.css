@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* 디자인 토큰(DESIGN.md): Primary는 화면마다 가장 중요한 행동 1개에만 쓴다. 카드는 테두리만, 그림자·그라데이션 금지. */
+@theme {
+  --color-surface: #0b1326;
+  --color-on-surface: #dde2fd;
+  --color-muted: #9aa4c7;
+  --color-line: #2a3656;
+  --color-field: #0f1a31;
+  --color-primary: #2665fd;
+  --color-error: #ffb4ab;
+  --font-sans: var(--font-inter), var(--font-noto-kr), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
