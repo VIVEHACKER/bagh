@@ -17,3 +17,6 @@ npm run dev                   # http://localhost:3000
 ## 상태
 MVP입니다. 알림톡 발송 어댑터가 아직 없어(개발용 콘솔 발송기만 있음) 운영 모드는 시작하지 않습니다.
 설계·사업 문서는 이 저장소에 넣지 않았습니다. 코드 주석의 `docs/` 경로는 비공개 문서를 가리킵니다.
+
+## 라이선스
+[Apache License 2.0](LICENSE). Copyright 2026 VIVEHACKER. 배포할 때는 [NOTICE](NOTICE)를 함께 포함해 주세요.
